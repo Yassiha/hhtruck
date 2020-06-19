@@ -1,0 +1,38 @@
+.title {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.core {
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-animation: slide 40s ease;
+  transform: translate3d(0,0,0);
+  height: 100vh;
+  width: 100%
+}
+
+.content {
+  z-index: 101;
+  color: #f8d83a;
+  font-weight: bolder;
+}
+
+.core:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #e6e18f;
+  opacity: 0.3;
+}
+
+@-webkit-keyframes slide {
+  0%   { background-position: left; }
+  50%   { background-position: right; }
+  100% { background-position: left; }
+}
