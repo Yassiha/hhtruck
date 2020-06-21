@@ -1,2 +1,9 @@
-// Import your components CSS files here.
+@import "background";
+@import "anime";
 @import "title";
+@import "infos";
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
