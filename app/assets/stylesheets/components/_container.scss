@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+}
+
+.box-title-infos {
+  background-color: RGBA(255,255,255,0.13);
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 24px;
+  color: #292929;
+}
+
+.title {
+  z-index: 101;
+  #trucksandutilities {
+      position: relative;
+      left: 30%
+
+  }
+}
+.infos {
+  z-index: 101;
+}
+
+.footer {
+  position: absolute;
+  top: 98%;
+  right: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
